@@ -19,6 +19,7 @@ export default function Index() {
       <MainContainer>
         <Hero />
         <WorkExperience />
+        <Journey />
       </MainContainer>
     </>
   );
