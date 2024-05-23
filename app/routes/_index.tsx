@@ -1,7 +1,9 @@
 import type { MetaFunction } from "@remix-run/node";
 import Hero from "~/components/Hero";
+import Journey from "~/components/Journey";
 import MainContainer from "~/components/MainContainer";
 import NavigationBar from "~/components/NavigationBar";
+import WorkExperience from "~/components/WorkExperience";
 
 export const meta: MetaFunction = () => {
   return [
@@ -16,6 +18,7 @@ export default function Index() {
       <NavigationBar />
       <MainContainer>
         <Hero />
+        <WorkExperience />
       </MainContainer>
     </>
   );
