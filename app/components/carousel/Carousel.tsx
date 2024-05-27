@@ -37,12 +37,7 @@ export default function Carousel(props: CarouselProps) {
   const { selectedIndex, scrollSnaps, onDotButtonClick } =
     useDotButton(emblaApi);
 
-  const {
-    prevBtnDisabled,
-    nextBtnDisabled,
-    onPrevButtonClick,
-    onNextButtonClick,
-  } = usePrevNextButtons(emblaApi);
+  const { onPrevButtonClick, onNextButtonClick } = usePrevNextButtons(emblaApi);
 
   const setTweenFactor = useCallback((emblaApi: EmblaCarouselType) => {
     tweenFactor.current = TWEEN_FACTOR_BASE * emblaApi.scrollSnapList().length;
@@ -118,8 +113,8 @@ export default function Carousel(props: CarouselProps) {
 
       <div className={styles["embla__controls"]}>
         <div className={styles["embla__buttons"]}>
-          <PrevButton onClick={onPrevButtonClick} disabled={prevBtnDisabled} />
-          <NextButton onClick={onNextButtonClick} disabled={nextBtnDisabled} />
+          <PrevButton onClick={onPrevButtonClick} />
+          <NextButton onClick={onNextButtonClick} />
         </div>
 
         <div className={styles["embla__dots"]}>
@@ -129,7 +124,7 @@ export default function Carousel(props: CarouselProps) {
               onClick={() => onDotButtonClick(index)}
               className={clsx([
                 styles["embla__dot"],
-                index === selectedIndex ? " embla__dot--selected" : "",
+                index === selectedIndex ? styles["embla__dot--selected"] : "",
               ])}
             />
           ))}
