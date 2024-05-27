@@ -35,7 +35,14 @@ export default function NavigationBar() {
             >
               journey
             </button>
-            <button className="hover:font-semibold">contact</button>
+            <button
+              className="hover:font-semibold"
+              onClick={() => {
+                scrollToSection("contact-section");
+              }}
+            >
+              contact
+            </button>
           </div>
         </div>
       </nav>

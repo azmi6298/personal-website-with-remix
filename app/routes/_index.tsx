@@ -1,4 +1,5 @@
 import type { MetaFunction } from "@remix-run/node";
+import Contact from "~/components/Contact";
 import Hero from "~/components/Hero";
 import Journey from "~/components/Journey";
 import MainContainer from "~/components/MainContainer";
@@ -20,6 +21,7 @@ export default function Index() {
         <Hero />
         <WorkExperience />
         <Journey />
+        <Contact />
       </MainContainer>
     </>
   );
