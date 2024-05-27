@@ -6,7 +6,10 @@ export default function Journey() {
   const OPTIONS: EmblaOptionsType = { loop: true };
 
   return (
-    <section className="container mx-auto flex items-center justify-center min-h-screen gap-4">
+    <section
+      className="snap-start container mx-auto flex items-center justify-center min-h-screen gap-4"
+      id="journey-section"
+    >
       <div className="flex flex-col gap-y-16">
         <span className="text-4xl font-semibold">Journey</span>
         <p className="text-xl">

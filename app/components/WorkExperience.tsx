@@ -3,7 +3,10 @@ import Card from "./Card";
 
 export default function WorkExperience() {
   return (
-    <section className="flex flex-col items-center justify-center min-h-screen gap-y-16 bg-secondary/40 *:text-primary">
+    <section
+      className="snap-start flex flex-col items-center justify-center min-h-screen gap-y-16 bg-secondary/40 *:text-primary"
+      id="work-section"
+    >
       <span className="text-4xl font-semibold">Work Experience</span>
       <div className="container grid lg:grid-cols-3 gap-8">
         {WORK_EXPERIENCE.map((data) => (

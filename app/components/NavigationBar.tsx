@@ -1,13 +1,40 @@
 export default function NavigationBar() {
+  function scrollToSection(sectionId: string) {
+    const element = document.getElementById(sectionId);
+    element?.scrollIntoView({
+      behavior: "smooth",
+    });
+  }
+
   return (
     <header className="fixed bg-secondary/20 top-0 px-8 py-4 w-full">
       <nav>
         <div className="flex justify-between items-center">
-          <a className="text-4xl font-semibold">andini</a>
+          <button
+            className="text-4xl font-semibold"
+            onClick={() => {
+              scrollToSection("hero-section");
+            }}
+          >
+            andini
+          </button>
           <div className="flex gap-x-4 items-center *:text-xs *:uppercase">
-            <button className="hover:font-semibold">work experience</button>
-            <button className="hover:font-semibold">sidekick</button>
-            <button className="hover:font-semibold">journey</button>
+            <button
+              className="hover:font-semibold"
+              onClick={() => {
+                scrollToSection("work-section");
+              }}
+            >
+              work experience
+            </button>
+            <button
+              className="hover:font-semibold"
+              onClick={() => {
+                scrollToSection("journey-section");
+              }}
+            >
+              journey
+            </button>
             <button className="hover:font-semibold">contact</button>
           </div>
         </div>
