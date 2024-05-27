@@ -3,9 +3,9 @@ import Card from "./Card";
 
 export default function WorkExperience() {
   return (
-    <section className="flex flex-col gap-y-4 items-center justify-center">
+    <section className="flex flex-col items-center justify-center min-h-screen gap-y-16 bg-secondary/40 *:text-primary">
       <span className="text-4xl font-semibold">Work Experience</span>
-      <div className="grid lg:grid-cols-3 gap-8">
+      <div className="container grid lg:grid-cols-3 gap-8">
         {WORK_EXPERIENCE.map((data) => (
           <Card
             key={data.label}

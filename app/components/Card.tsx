@@ -11,10 +11,10 @@ interface CardProps {
 export default function Card(props: CardProps) {
   const [showDescription, setShowDescription] = useState(false);
   return (
-    <div className="bg-secondary bg-opacity-20 shadow-lg flex flex-col items-center text-center gap-2 rounded-lg p-4">
+    <div className="bg-secondary bg-opacity-20 shadow-lg flex flex-col items-center text-center gap-2 rounded-lg p-4 *:text-primary">
       <img src={`/${props.image}`} width={100} className="rounded-full" />
-      <h1 className="text-xl font-bold text-secondary">{props.label}</h1>
-      <h2 className="text-slate-600">{props.subLabel}</h2>
+      <h1 className="text-xl font-bold ">{props.label}</h1>
+      <h2>{props.subLabel}</h2>
       {!showDescription && (
         <button onClick={() => setShowDescription(true)}>
           <FaArrowCircleDown size={28} />
