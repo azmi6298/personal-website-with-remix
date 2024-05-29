@@ -49,11 +49,11 @@
     @apply appearance-none bg-transparent touch-manipulation no-underline cursor-pointer w-[1.5rem] h-[1.5rem];
     @apply flex items-center justify-center m-0 p-0 rounded-[50%] border-0;
 
-    @apply after:shadow-[inset_0_0_0_0.2rem_#4F4D3E] after:w-[1.4rem] after:h-[1.4rem] after:flex after:items-center after:content-[""] after:rounded-[50%];
+    @apply after:shadow-[inset_0_0_0_0.2rem_#D58A94] after:w-[1.4rem] after:h-[1.4rem] after:flex after:items-center after:content-[""] after:rounded-[50%];
     -webkit-tap-highlight-color: rgba(var(--text-high-contrast-rgb-value), 0.5);
 
     &--selected {
-      @apply after:shadow-[inset_0_0_0_0.2rem_#ebe3da];
+      @apply after:shadow-[inset_0_0_0_0.2rem_rgb(238,228,169)];
     }
   }
 }

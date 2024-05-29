@@ -4,9 +4,9 @@ export default function Hero() {
       className="snap-start container mx-auto flex items-center justify-center min-h-screen"
       id="hero-section"
     >
-      <div className="font-extrabold text-3xl md:text-6xl [text-wrap:balance] bg-clip-text text-transparent bg-gradient-to-r from-secondary/30 to-50% to-secondary/60">
+      <div className="font-extrabold text-3xl md:text-6xl [text-wrap:balance] bg-clip-text text-transparent bg-gradient-to-r from-on-primary/30 to-50% to-on-primary/60">
         Manpower for{" "}
-        <span className="text-secondary inline-flex flex-col h-[calc(theme(fontSize.3xl)*theme(lineHeight.tight))] md:h-[calc(theme(fontSize.6xl)*theme(lineHeight.tight))] overflow-hidden">
+        <span className="text-on-primary inline-flex flex-col h-[calc(theme(fontSize.3xl)*theme(lineHeight.tight))] md:h-[calc(theme(fontSize.6xl)*theme(lineHeight.tight))] overflow-hidden">
           <ul className="block animate-text-slide text-left leading-tight [&_li]:block">
             <li>Mainpower</li>
             <li>Talent</li>

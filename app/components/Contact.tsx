@@ -4,7 +4,7 @@ import { SiGmail } from "react-icons/si";
 export default function Contact() {
   return (
     <section
-      className="snap-start flex flex-col items-center justify-center min-h-screen gap-y-16 bg-secondary/40 *:text-primary"
+      className="snap-start flex flex-col items-center justify-center min-h-screen gap-y-16 bg-accent-white *:text-on-primary"
       id="contact-section"
     >
       <span className="text-4xl font-semibold">Contact Me</span>
@@ -14,6 +14,11 @@ export default function Contact() {
         </span>
         <span className="text-2xl">☺️</span>
       </div>
+      <img
+        className="h-48 rounded-full"
+        src="images/portrait.jpeg"
+        alt="Risky Asty Andini"
+      />
       <div className="flex gap-8">
         <a
           href="https://www.linkedin.com/in/risky-asty-andini-22a495157"
