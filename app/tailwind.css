@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .section-title {
+    @apply text-4xl font-semibold underline decoration-dashed;
+  }
+}

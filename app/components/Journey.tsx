@@ -11,7 +11,7 @@ export default function Journey() {
       id="journey-section"
     >
       <div className="flex flex-col gap-y-16">
-        <span className="text-4xl font-semibold">Journey</span>
+        <span className="section-title">Journey</span>
         <p className="text-xl">
           Step into my world of work through these images. Each one represents a
           milestone in my path, showcasing the skills and experiences I've

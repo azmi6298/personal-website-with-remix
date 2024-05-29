@@ -7,7 +7,7 @@ export default function Contact() {
       className="snap-start flex flex-col items-center justify-center min-h-screen gap-y-16 bg-accent-white *:text-on-primary"
       id="contact-section"
     >
-      <span className="text-4xl font-semibold">Contact Me</span>
+      <span className="section-title">Contact Me</span>
       <div>
         <span className="text-2xl font-semibold">
           Looking forward to the possibility of collaborating!
@@ -23,10 +23,14 @@ export default function Contact() {
         <a
           href="https://www.linkedin.com/in/risky-asty-andini-22a495157"
           target="_blank"
+          className="animate-bounce"
         >
           <FaLinkedin size={48} className="hover:text-blue-600" />
         </a>
-        <a href="mailto:riskyastyandini@gmail.com?subject=Hello%20Andini">
+        <a
+          href="mailto:riskyastyandini@gmail.com?subject=Hello%20Andini"
+          className="animate-bounce"
+        >
           <SiGmail size={48} className="hover:text-red-400" />
         </a>
       </div>
