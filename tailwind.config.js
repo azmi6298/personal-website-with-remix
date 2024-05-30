@@ -14,7 +14,9 @@ export default {
         "on-primary": "#D58A94",
         secondary: "rgb(237,209,199)",
         "accent-yellow": "rgb(238,228,169)",
-        "accent-white": "rgb(245,245,245)"
+        "accent-white": "rgb(245,245,245)",
+        "accent-blue": "rgb(159,190,211)",
+        "accent-lilac": "rgb(197,284,107)"
       },
       keyframes: {
         "text-slide": {

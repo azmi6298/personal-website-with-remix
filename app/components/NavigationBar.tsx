@@ -7,7 +7,7 @@ export default function NavigationBar() {
   }
 
   return (
-    <header className="fixed bg-accent-yellow top-0 px-8 py-4 w-full">
+    <header className="fixed bg-accent-yellow/70 top-0 px-8 py-4 w-full z-50">
       <nav>
         <div className="flex justify-between items-center">
           <button

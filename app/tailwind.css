@@ -4,6 +4,6 @@
 
 @layer components {
   .section-title {
-    @apply text-4xl font-semibold underline decoration-dashed;
+    @apply text-2xl xl:text-4xl font-semibold underline decoration-dashed;
   }
 }

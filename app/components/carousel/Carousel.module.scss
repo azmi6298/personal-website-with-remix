@@ -1,6 +1,5 @@
 .embla {
-  @apply max-w-screen-md m-auto;
-  --slide-height: 19rem;
+  @apply max-w-screen-md;
   --slide-spacing: 1rem;
   --slide-size: 70%;
   --text-high-contrast-rgb-value: 49, 49, 49;
@@ -19,16 +18,16 @@
     @apply flex-[0_0_var(--slide-size)] min-w-0 pl-[var(--slide-spacing)];
 
     &__img {
-      @apply block h-[var(--slide-height)] w-full object-cover rounded-[1.8rem];
+      @apply block h-[25rem] xl:h-[19rem] w-full object-cover rounded-[1.8rem];
     }
   }
 
   &__controls {
-    @apply grid grid-cols-[auto_1fr] justify-between gap-[1.2rem] mt-[1.8rem];
+    @apply flex justify-center xl:grid xl:grid-cols-[auto_1fr] xl:justify-between gap-[1.2rem] mt-[1.8rem];
   }
 
   &__buttons {
-    @apply grid grid-cols-[repeat(2,1fr)] gap-[0.6rem] items-center;
+    @apply hidden xl:grid grid-cols-[repeat(2,1fr)] gap-[0.6rem] items-center;
   }
 
   &__button {

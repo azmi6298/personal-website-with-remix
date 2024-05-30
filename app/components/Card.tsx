@@ -7,11 +7,11 @@ interface CardProps {
 
 export default function Card(props: CardProps) {
   return (
-    <div className="bg-secondary bg-opacity-20 shadow-lg flex flex-col items-center text-center gap-2 rounded-lg p-4 *:text-on-primary">
+    <div className="bg-secondary bg-opacity-20 shadow-lg flex flex-col items-center text-center gap-4 rounded-lg p-4 *:text-on-primary">
       <img src={`/${props.image}`} width={100} className="rounded-full" />
-      <h1 className="text-xl font-bold ">{props.label}</h1>
-      <h2>{props.subLabel}</h2>
-      <p>{props.caption}</p>
+      <h1 className="xl:text-xl font-bold ">{props.label}</h1>
+      <h2 className="text-sm italic font-light">{props.subLabel}</h2>
+      <p className="text-sm">{props.caption}</p>
     </div>
   );
 }
