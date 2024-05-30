@@ -7,12 +7,12 @@ export default function Journey() {
 
   return (
     <section
-      className="snap-start scroll-mt-[72px] container mx-auto flex flex-col xl:flex-row items-center justify-center lg:min-h-screen gap-8 py-16 xl:py-0"
+      className="snap-start scroll-mt-[36px] lg:scroll-mt-0 container mx-auto flex flex-col xl:flex-row items-center justify-center lg:min-h-screen gap-8 py-16 lg:py-0"
       id="journey-section"
     >
-      <div className="flex flex-col items-center lg:items-start gap-y-8 xl:gap-y-16">
+      <div className="flex flex-col items-center xl:items-start gap-y-8 xl:gap-y-16 *:text-center *:xl:text-start">
         <span className="section-title">Journey</span>
-        <p className="text-sm xl:text-xl">
+        <p className="text-sm lg:text-2xl xl:text-xl">
           Step into my world of work through these images. Each one represents a
           milestone in my path, showcasing the skills and experiences I've
           gained along the way. Let’s dive in!
