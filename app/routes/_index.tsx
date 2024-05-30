@@ -9,7 +9,10 @@ import WorkExperience from "~/components/WorkExperience";
 export const meta: MetaFunction = () => {
   return [
     { title: "Andini | @rasandini" },
-    { name: "description", content: "Welcome to Remix!" },
+    {
+      name: "description",
+      content: "Hey, welcome to my little corner!👋💭😆",
+    },
   ];
 };
 
