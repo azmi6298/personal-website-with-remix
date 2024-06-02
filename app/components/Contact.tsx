@@ -4,21 +4,23 @@ import { SiGmail } from "react-icons/si";
 export default function Contact() {
   return (
     <section
-      className="snap-start flex flex-col items-center justify-center bg-accent-white *:text-on-primary py-12 xl:py-0 min-h-screen"
+      className="snap-start flex flex-col items-center justify-center *:text-on-primary py-12 xl:py-0 min-h-screen"
       id="contact-section"
     >
       <div className="container mx-auto flex flex-col items-center justify-center gap-y-16">
-        <div className="text-center text-lg lg:text-2xl xl:text-4xl">
+        <div className="text-center text-lg lg:text-4xl">
           <span className="font-semibold">
             Looking forward to the possibility of collaborating!
           </span>
           <span>☺️</span>
         </div>
-        <img
-          className="h-48 rounded-full"
-          src="images/portrait.jpeg"
-          alt="Risky Asty Andini"
-        />
+        <div className="w-56 h-56 rounded-full overflow-hidden">
+          <img
+            className="w-full h-full object-cover"
+            src="images/portrait-2.jpeg"
+            alt="Risky Asty Andini"
+          />
+        </div>
         <div className="flex gap-8">
           <a
             href="https://www.linkedin.com/in/risky-asty-andini-22a495157"

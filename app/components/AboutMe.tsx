@@ -1,7 +1,7 @@
 export default function AboutMe() {
   return (
     <section
-      className="snap-start flex flex-col items-center justify-center py-12 xl:py-0 min-h-screen bg-accent-white"
+      className="snap-start flex flex-col items-center justify-center xl:py-0 min-h-screen bg-accent-white"
       id="about_me-section"
     >
       <div className="container mx-auto grid xl:grid-cols-2 place-items-center gap-y-8 lg:gap-y-16">
@@ -14,7 +14,7 @@ export default function AboutMe() {
           </span>
         </div>
         <div className="flex flex-col items-center gap-y-4">
-          <span className="text-4xl pacifico-regular">hello</span>
+          <span className="text-[4rem] pacifico-regular">hello</span>
           <div>
             <img
               className="h-56 rounded-full"

@@ -4,8 +4,8 @@ import Card from "./Card";
 export default function WorkExperience() {
   return (
     <section
-      className="snap-start lg:min-h-screen bg-accent-white *:text-on-primary py-16 xl:py-8"
-      id="work-section"
+      className="snap-start scroll-mt-0 xl:scroll-mt-[72px] lg:min-h-screen *:text-on-primary py-16 xl:py-8"
+      id="experience-section"
     >
       <div className="container mx-auto flex flex-col items-center justify-center gap-y-8 lg:gap-y-16">
         <span className="section-title">Work Experience</span>
