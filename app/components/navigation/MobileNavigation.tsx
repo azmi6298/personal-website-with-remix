@@ -1,4 +1,6 @@
 import clsx from "clsx";
+import "animate.css";
+
 import { useEffect, useRef, useState } from "react";
 import { MdMenuBook } from "react-icons/md";
 import { NAVBAR_MENU } from "utils/constant/navbarMenu";
@@ -37,8 +39,8 @@ export default function MobileNavigation() {
       <div
         ref={mobileMenusRef}
         className={clsx([
-          openMobileMenus ? "flex flex-col" : "hidden",
-          "gap-y-4 xl:hidden fixed bottom-24 right-6 bg-accent-yellow p-4 shadow-md rounded-xl z-50",
+          "animate__animated animate__faster flex flex-col gap-y-4 xl:hidden fixed bottom-24 right-6 bg-accent-yellow p-4 shadow-md rounded-xl z-50",
+          openMobileMenus ? "animate__zoomIn " : "animate__zoomOut",
         ])}
       >
         <button
