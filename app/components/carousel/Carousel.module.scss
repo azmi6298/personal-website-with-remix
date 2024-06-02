@@ -15,7 +15,7 @@
   }
 
   &__slide {
-    @apply flex-[0_0_var(--slide-size)] min-w-0 pl-[var(--slide-spacing)];
+    @apply flex-[0_0_var(--slide-size)] min-w-0 pl-[var(--slide-spacing)] z-[1];
 
     &__img {
       @apply block h-[25rem] xl:h-[19rem] w-full object-cover rounded-[1.8rem];

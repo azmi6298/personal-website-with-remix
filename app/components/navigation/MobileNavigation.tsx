@@ -28,7 +28,7 @@ export default function MobileNavigation() {
   return (
     <>
       <button
-        className="block xl:hidden fixed bottom-8 right-6 bg-accent-yellow rounded-full shadow-md p-2"
+        className="block xl:hidden fixed bottom-8 right-6 bg-accent-yellow rounded-full shadow-md p-2 z-50"
         onClick={() => setOpenMobileMenus(!openMobileMenus)}
       >
         <MdMenuBook size={28} />
