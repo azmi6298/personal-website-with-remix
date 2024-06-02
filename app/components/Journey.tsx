@@ -7,7 +7,7 @@ export default function Journey() {
 
   return (
     <section
-      className="snap-start scroll-mt-[36px] lg:scroll-mt-0 container mx-auto flex flex-col xl:flex-row items-center justify-center lg:min-h-screen gap-8 py-16 lg:py-0"
+      className="snap-start container mx-auto flex flex-col xl:flex-row items-center justify-center lg:min-h-screen gap-8 py-16 lg:py-0"
       id="journey-section"
     >
       <div className="flex flex-col items-center xl:items-start gap-y-8 xl:gap-y-16 *:text-center *:xl:text-start">
