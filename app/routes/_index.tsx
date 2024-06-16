@@ -3,9 +3,8 @@ import AboutMe from "~/components/AboutMe";
 import Contact from "~/components/Contact";
 import Hero from "~/components/Hero";
 import Journey from "~/components/Journey";
-import MainContainer from "~/components/MainContainer";
-import NavigationBar from "~/components/NavigationBar";
 import WorkExperience from "~/components/WorkExperience";
+import Layout from "~/components/layout/Layout";
 
 export const meta: MetaFunction = () => {
   return [
@@ -20,14 +19,13 @@ export const meta: MetaFunction = () => {
 export default function Index() {
   return (
     <>
-      <NavigationBar />
-      <MainContainer>
+      <Layout>
         <Hero />
         <AboutMe />
         <WorkExperience />
         <Journey />
         <Contact />
-      </MainContainer>
+      </Layout>
     </>
   );
 }
