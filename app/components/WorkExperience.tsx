@@ -1,6 +1,9 @@
 import WORK_EXPERIENCE from "utils/constant/workExperience";
 import Card from "./Card";
 
+const RESUME_DRIVE_URL =
+  "https://drive.google.com/drive/folders/1nrnaOg7hQGncEByamnt4T9AXsVs_SVUt";
+
 export default function WorkExperience() {
   return (
     <section
@@ -21,7 +24,7 @@ export default function WorkExperience() {
           ))}
         </div>
         <a
-          href="https://drive.google.com/file/d/1e0v0Z5SWnpOot0Xsd3wL_q27p4GPHPjg/view"
+          href={RESUME_DRIVE_URL}
           target="_blank"
           className="mt-4 animate-bounce p-4 outline-dashed outline-2 outline-on-primary rounded-full hover:font-semibold"
         >
