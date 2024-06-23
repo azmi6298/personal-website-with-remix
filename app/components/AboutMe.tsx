@@ -4,7 +4,7 @@ export default function AboutMe() {
       className="snap-start flex flex-col items-center justify-center xl:py-0 min-h-screen bg-accent-white"
       id="about_me-section"
     >
-      <div className="container mx-auto grid xl:grid-cols-2 place-items-center gap-y-8 lg:gap-y-16">
+      <div className="container mx-auto grid xl:grid-cols-2 place-items-center gap-y-16 lg:gap-y-36">
         <div className="order-last xl:order-first flex flex-col items-center xl:items-start gap-y-8 xl:gap-y-10 *:text-center *:xl:text-start">
           <span className="section-title">About Me</span>
           <span className="lg:text-2xl">

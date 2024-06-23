@@ -7,10 +7,10 @@ const RESUME_DRIVE_URL =
 export default function WorkExperience() {
   return (
     <section
-      className="snap-start scroll-mt-0 xl:scroll-mt-[72px] lg:min-h-screen *:text-on-primary py-16 xl:py-8"
+      className="snap-start scroll-mt-0 lg:min-h-screen *:text-on-primary py-16 xl:py-8"
       id="experience-section"
     >
-      <div className="container mx-auto flex flex-col items-center justify-center gap-y-8 lg:gap-y-16">
+      <div className="container mx-auto flex flex-col items-center justify-center gap-y-8 lg:gap-y-16 lg:min-h-screen">
         <span className="section-title">Work Experience</span>
         <div className="grid xl:grid-cols-3 gap-8">
           {WORK_EXPERIENCE.map((data) => (
